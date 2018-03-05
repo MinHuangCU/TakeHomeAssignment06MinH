@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.huangmin.takehomeassignment06_minh.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/amount_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            android:hint="Amount"
+            android:inputType="numberDecimal"
+            android:textSize="16sp"
+
+            />
+        <EditText
+            android:id="@+id/tax_percentage_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            android:hint="Tax Percentage"
+            android:inputType="numberDecimal"
+            android:textSize="16sp"
+
+            />
+
+        <EditText
+            android:id="@+id/tip_percentage_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            android:hint="Tip Percentage"
+            android:inputType="numberDecimal"
+            android:textSize="16sp" />
+
+
+
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:onClick="submit"
+            android:text="Submit" />
+
+
+    </LinearLayout>
+</ScrollView>
